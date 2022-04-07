@@ -32,3 +32,13 @@ ReactDOM.render(
   <TradingCard name="Llambda" skill="knitting scarves" imgUrl="/static/img/llambda.jpg" />,
   document.querySelector('#llambda'),
 );
+
+ReactDOM.render(
+  <TradingCard name="Json" skill="spitting code" imgUrl="/static/img/off-by-one.jpeg" />,
+  document.querySelector('#json'),
+);
+
+ReactDOM.render(
+  <TradingCard name="Doughnut" skill="kneading dough" imgUrl="/static/img/shortstack-overflow.jpeg" />,
+  document.querySelector('#donut'),
+);
